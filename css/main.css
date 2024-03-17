@@ -1,0 +1,17 @@
+.interface-container .key {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.interface-container .keyboard-interface-container,
+.interface-container .mouse-interface-container {
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.interface-container .mouse-interface-container {
+    width: 50%;
+    margin: 30px auto 0 auto;
+}
