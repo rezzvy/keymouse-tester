@@ -68,3 +68,36 @@ footer .text {
     padding: 15px;
     border-radius: 6px;
 }
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .keyboard-interface-container {
+        overflow: auto;
+    }
+
+    .interface-wrapper .mouse-interface-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .keyboard-interface-container,
+    .mouse-interface-container {
+        overflow: auto;
+    }
+
+    .interface-wrapper .mouse-interface-container {
+        width: 100%;
+    }
+
+    .how-to-use-container .row{
+        flex-wrap: wrap;
+    }
+
+    .how-to-use-container .col{
+        flex: 100% !important;
+    }
+}
