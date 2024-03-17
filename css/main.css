@@ -1,17 +1,70 @@
-.interface-container .key {
-    border: 1px solid black;
-    padding: 15px;
-    border-radius: 6px;
+.interface-wrapper,
+footer {
+    background:
+        radial-gradient(black 3px, transparent 4px),
+        radial-gradient(black 3px, transparent 4px),
+        linear-gradient(#fff 4px, transparent 0),
+        linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+        linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+        #fff;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    padding: 30px 0;
 }
 
-.interface-container .keyboard-interface-container,
-.interface-container .mouse-interface-container {
+.interface-wrapper .keyboard-interface-container,
+.interface-wrapper .mouse-interface-container {
+    background-color: rgba(255, 255, 255, 0.85);
     padding: 30px;
     border: 1px solid black;
     border-radius: 12px;
 }
 
-.interface-container .mouse-interface-container {
+.interface-wrapper .mouse-interface-container {
     width: 50%;
     margin: 30px auto 0 auto;
+}
+
+.interface-wrapper .key {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: rgb(238, 238, 238);
+}
+
+.interface-wrapper .key.active {
+    background-color: rgb(72, 72, 72);
+    color: white;
+    font-weight: bold;
+    transform: scale(.95);
+}
+
+.how-to-use-container h2 {
+    margin-bottom: 30px;
+}
+
+.how-to-use-container .icon {
+    margin-bottom: 15px;
+}
+
+header,
+main,
+footer {
+    text-align: center;
+}
+
+header {
+    margin-top: 30px;
+}
+
+main {
+    margin: 60px 0;
+}
+
+footer .text {
+    border: 1px solid black;
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
 }
