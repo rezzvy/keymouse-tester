@@ -42,7 +42,7 @@ a {
 }
 
 [data-key] {
-    transition: all .25s cubic-bezier(.22, .68, 0, 1.71);
+    transition: transform .25s cubic-bezier(.22, .68, 0, 1.71);
 }
 
  

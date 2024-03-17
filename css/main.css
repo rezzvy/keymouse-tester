@@ -35,7 +35,7 @@ footer {
 .interface-wrapper .key.active {
     background-color: rgb(72, 72, 72);
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     transform: scale(.95);
 }
 
